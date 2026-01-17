@@ -22,7 +22,4 @@ The goal of this repository is to:
 
 Problems are organized by **contest ID and problem letter**.
 
----
-
-## 📂 Repository Structure
 
