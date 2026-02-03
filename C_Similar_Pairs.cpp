@@ -9,37 +9,7 @@ void solve() {
     // Example: Using a Vector
     vector<int> v(n);
     for(int i = 0; i < n; i++) cin >> v[i];
-
-    int target =n;
-    for(int i=0;i<n;i++){
-        if(v[i]==target){
-            target--;
-            continue;
-        }
-        
-        else{
-            int idx=0;
-            for(int j=i;j<n;j++){
-                if(v[j]==target){
-                    idx=j;
-                    break;
-
-
-                }
-
-            }
-            reverse(v.begin()+i,v.begin()+idx+1);
-            
-            break;
-
-        }
-
-    }
-    for(int x:v){
-        cout<<x<<" ";
-        
-    }
-    cout<<endl;
+    
     
     // // Example: Using a Map to count frequencies
     // map<int, int> counts;

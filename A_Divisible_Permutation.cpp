@@ -5,42 +5,31 @@ void solve() {
     // 1. Read Input
     int n;
     cin >> n;
+
     
     // Example: Using a Vector
-    vector<int> v(n);
-    for(int i = 0; i < n; i++) cin >> v[i];
+    vector<int> v(n+1);
+    // for(int i = 0; i < n; i++) cin >> v[i];
+    int small=1;
+    int big =n;
+    bool flip =true;
+    for(int i=n;i>=1;i--){
+        if(flip){v[i]=small;
+        small++;}
+        else{v[i]=big;
+        big--;}
 
-    int target =n;
-    for(int i=0;i<n;i++){
-        if(v[i]==target){
-            target--;
-            continue;
-        }
-        
-        else{
-            int idx=0;
-            for(int j=i;j<n;j++){
-                if(v[j]==target){
-                    idx=j;
-                    break;
+        flip=!flip;
 
 
-                }
+    }    
+    for (int i=1;i<=n;i++){
+        cout<<v[i]<<" ";
 
-            }
-            reverse(v.begin()+i,v.begin()+idx+1);
-            
-            break;
 
-        }
-
-    }
-    for(int x:v){
-        cout<<x<<" ";
-        
     }
     cout<<endl;
-    
+
     // // Example: Using a Map to count frequencies
     // map<int, int> counts;
     // for(int x : v) {
