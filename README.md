@@ -1,4 +1,4 @@
-#  Codeforces Solutions (C++)
+# Codeforces Solutions (C++)
 
 ## Why I built this ?
 
@@ -26,7 +26,7 @@ The goal of this repository is to:
 
 ---
 
-##  About
+## About
 - Platform: Codeforces
 - Language: C++
 - Focus Areas:
