@@ -1,4 +1,4 @@
-# 🧠 Cf Slu (C++)
+#  Cf Slu (C++)
 
 T y y lu **Cf bl**, 
 lv f y **v DSA **.
@@ -10,7 +10,7 @@ T l f y :
 
 ---
 
-## 📌 Abu
+##  Abu
 - lf: **Cf**
 - Lu: **C++**
 - Fu A:
@@ -21,8 +21,6 @@ T l f y :
  - bl-lv 
 
 bl z by ** ID bl l**.
-
-
 
 ---
 
