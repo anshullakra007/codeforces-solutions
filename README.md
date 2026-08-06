@@ -26,7 +26,7 @@ Problems are organized by **contest ID and problem letter**.
 
 ---
 
-## 🌟 STAR Story: codeforces-solutions
+## Why I built this ?
 
 **Situation:** 
 While building modern software applications, developing structured and scalable solutions is critical. The requirement was to build and maintain `codeforces-solutions` to address specific technical challenges and provide a robust implementation.
