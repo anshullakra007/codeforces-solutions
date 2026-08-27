@@ -1,4 +1,4 @@
-# Codeforces Solutions (C++) 🏆 🚀
+# Codeforces Solutions (C++)  
 
 ---
 
@@ -11,7 +11,7 @@ Hey there! This repository is my personal collection of C++ solutions to various
 
 ---
 
-## 🛠️ The Tech & Focus
+##  The Tech & Focus
 
 - **Platform:** Codeforces
 - **Language:** C++
