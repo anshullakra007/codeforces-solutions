@@ -1,4 +1,4 @@
-# Codeforces Solutions (C++) 🏆
+# Codeforces Solutions (C++) 🏆 🚀
 
 ---
 
